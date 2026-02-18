@@ -50,5 +50,9 @@ The system is controlled via single-character commands in the terminal:
 2. **Execution**:
 ```bash
   ./sudoku_system
+```
+<div align="center">
+<p>Developed as part of the curriculum at <b>STU FIIT Bratislava</b> 🎓</p>
+</div>
 
 
