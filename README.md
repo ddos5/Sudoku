@@ -35,7 +35,7 @@ The system is controlled via single-character commands in the terminal:
 | **`h`** | `funkcia_h` | **History**: Exports specific game records to `Vystup_H.txt`. |
 | **`q`** | `funkcia_q` | **Queue**: Adds a new record to the arrays using dynamic resizing (`realloc`). |
 | **`w`** | `funkcia_w` | **Wipe**: Deletes all solution records for a specific Player ID from the arrays. |
-| **`e`** | `funkcia_e` | **Edit**: Generates a Sudoku grid by hiding `X` numbers (Difficulty Generator). |
+| **`e`** | `funkcia_e` | **Edit**: Generates a Sudoku grid by hiding `X` numbers, creating file `vystup_E.txt`(Difficulty Generator). |
 | **`a`** | `funkcia_a` | **Add**: Inserts a new player into the linked list at a custom position `Y`. |
 | **`s`** | `funkcia_s` | **Scrub**: Removes solution records from the list based on a specific Group ID. |
 | **`d`** | `funkcia_d` | **Duration**: Sorts player results by time using a sorting algorithm. |
@@ -46,4 +46,9 @@ The system is controlled via single-character commands in the terminal:
 ### 🚀 Usage
 1. **Compilation**:
    ```bash
-   gcc main.c -o sudoku_system
+   gcc sudoku.c -o sudoku_system
+2. **Execution**:
+```bash
+  ./sudoku_system
+
+
